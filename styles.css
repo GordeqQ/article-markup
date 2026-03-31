@@ -94,6 +94,12 @@ body {
     margin: 43px 0;
 }
 
+.article-code {
+    background-color: #f1f2f2;
+    font-family: monospace;
+    padding: 2px 5px;
+}
+
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
