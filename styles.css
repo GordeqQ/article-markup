@@ -96,16 +96,17 @@ body {
 
 .article-code {
     background-color: #f1f2f2;
-    font-family: monospace;
+    font-family: "Courier New", monospace;
+    font-weight: 300;
     padding: 2px 5px;
 }
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
+    /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
   */
-  
+
     .site-header {
         text-align: left;
     }
