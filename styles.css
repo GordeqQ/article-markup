@@ -99,6 +99,34 @@ body {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
   */
-
   
+    .site-header {
+        text-align: left;
+    }
+
+    .site-logo-link {
+        margin: 20px 0;
+    }
+
+    .site-nav-list {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 20px;
+        align-items: left;
+    }
+
+    .site-nav-link {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .article-title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .article-heading {
+        font-size: 26px;
+        line-height: 30px;
+    }
 }
